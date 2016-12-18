@@ -138,14 +138,15 @@
 
 div.body {
   width: 100%;
-  min-width: 1000px;
+  max-width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
 }
 
 div.slideshow {
   margin-left: 108px;
   margin-top: 50px;
   width: 800px;
-  height: 550px;
 }
 
 div.slick-track{
@@ -155,8 +156,12 @@ div.slick-track{
 .slick-slide{
 margin-left: 10px;
 margin-right: 10px;
+opacity: 0.25;
 }
 
+.slick-center {
+  opacity: 1;
+}
 
 
 </style>
