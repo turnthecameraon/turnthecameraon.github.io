@@ -1,0 +1,162 @@
+<style type="text/css">
+  .header {
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+
+  h1 {
+    font-family: helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  h2 {
+    font-family: helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    display: inline-block;
+  }
+
+  h3 {
+    font-family: helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    display: inline-block;
+  }
+
+  span.resume  {
+    padding-left: 400px;
+  }
+
+  span.about, span.contact{
+    padding-left: 50px;
+  }
+
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+
+  a.hover:hover {
+    font-weight: bold;
+  }
+
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+
+  p, div.resumetext, ul {
+    font-family: helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 130%;
+  }
+
+  div.resumetext {
+    margin-left: 58px;
+  }
+
+  div.title {
+    padding-left: 108px;
+    padding-top: 50px;
+    font-family: helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  p.summary, p.skills, p.work, p.education {
+    padding-left: 50px;
+  }
+
+  ul {
+    padding-left: 65px;
+    margin-top: -10px;
+  }
+
+  li span {
+    margin-left: -4px;
+  }
+
+  div.resumetext {
+    width: 500px;
+  }
+
+  hr {
+    border: 0;
+    margin-left: 50px;
+    height: 2px;
+    background-color: black;
+  }
+
+  .header {
+    padding-left: 108px;
+    padding-top: 83px;
+  }
+
+  div.abouttext {
+    font-family: helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    width: 400px;
+    float: left;
+    margin-left: 108px;
+    margin-right: 95px;
+    line-height: 130%;
+  }
+
+  #form {
+    left: 100px;
+    float: left;
+  }
+  .form-required {
+      display: none;
+  }
+  .jf-branding {
+    display: none !important;
+  }
+
+  form {
+    margin-left: 70px;
+    margin-top: 10px;
+    float: left;
+  }
+
+  div.form-all {
+    width: 500px;
+  }
+
+  ul.form-section.page-section {
+    margin-left: 1px;
+    margin-top: -100px;
+  }
+
+  span.contactphoto {
+    margin-left: 33px;
+  }
+
+div.body {
+  width: 100%;
+  min-width: 1500px;
+}
+
+div.slideshow {
+  margin-left: 108px;
+  margin-top: 50px;
+  width: 800px;
+  height: 550px;
+}
+
+div.slick-track{
+  width: 800px;
+}
+
+.slick-slide{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+
+</style>

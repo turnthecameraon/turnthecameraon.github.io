@@ -1,0 +1,79 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css"/>
+</head>
+
+<body>
+  <div class="body">
+  <div class="header">
+  <h1><A href="index.html">William Fletcher</h1>&nbsp;
+  <h2>design</h2></a><h3><span class="resume"><a class="hover" href="resume.html">resume</a></span>&nbsp;<span class="about"><a class="hover" href="about.html">about</a></span>&nbsp;<span class="contact"><a class="hover" href="contact.html">contact</a><span></h3>
+  </div>
+
+
+  <div class="slideshow">
+    <div><img src="images/1.jpg" height="550px"></div>
+    <div><img src="images/2.jpg" height="550px"></div>
+    <div><img src="images/3.jpg" height="550px"></div>
+    <div><img src="images/4.jpg" height="550px" border="1px"></div>
+    <div><img src="images/5.jpg" height="550px"></div>
+    <div><img src="images/6.jpg" height="550px"></div>
+    <div><img src="images/7.jpg" height="550px"></div>
+    <div><img src="images/8.jpg" height="550px"></div>
+    <div><img src="images/9.jpg" height="550px"></div>
+    <div><img src="images/10.jpg" height="550px"></div>
+    <div><img src="images/11.jpg" height="550px"></div>
+    <div><img src="images/12.jpg" height="550px"></div>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.slideshow').slick({
+      infinite: true,
+
+      slidesToScroll: 1,
+
+      autoplay: true,
+      autoplaySpeed: 3500,
+
+      variableWidth: true,
+
+      centerMode: true,
+       centerPadding: '100px',
+       slidesToShow: 3,
+       responsive: [
+         {
+           breakpoint: 768,
+           settings: {
+             arrows: false,
+             centerMode: true,
+             centerPadding: '100px',
+             slidesToShow: 3
+           }
+         },
+         {
+           breakpoint: 480,
+           settings: {
+             arrows: false,
+             centerMode: true,
+             centerPadding: '100px',
+             slidesToShow: 1
+           }
+         }
+       ]
+});
+});
+
+</script>
+
+</body>
+</body>
+
+</html>
